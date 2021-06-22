@@ -23,8 +23,7 @@
                 "https://walrodas.github.io/PediYa/safety-worker.js",
                 "https://walrodas.github.io/PediYa/scripts.ea5fcf5575ed4de9a3cc.js",
                 "https://walrodas.github.io/PediYa/styles.e068284aab4cfff3da35.css",
-                "https://walrodas.github.io/PediYa/worker-basic.min.js",
-                "https://walrodas.github.io/PediYa/assets/images/logo.png"
+                "https://walrodas.github.io/PediYa/worker-basic.min.js"
             ],
             "patterns": []
         },
@@ -65,7 +64,7 @@
         "name": "pediya",
         "patterns": [
             "https:\\/\\/www\\.google\\.com\\/.*",
-            "https:\\/\\/walrodas\\.github\\.io\\/PediYa\\/assets\\/.*"
+            "https:\\/\\/walrodas\\.github\\.io\\/.*"
         ],
         "strategy": "performance",
         "maxSize": 20,
