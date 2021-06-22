@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624388583742,
+  "timestamp": 1624389624590,
   "index": "https://walrodas.github.io/PediYa/https://walrodas.github.io/PediYa/",
   "assetGroups": [
     {
@@ -17,6 +17,7 @@
         "https://walrodas.github.io/PediYa/favicon.ico",
         "https://walrodas.github.io/PediYa/index.html",
         "https://walrodas.github.io/PediYa/main.5a38b1f05d5e675c35a4.js",
+        "https://walrodas.github.io/PediYa/main.af4d1c6d7e0531b6a0b3.js",
         "https://walrodas.github.io/PediYa/main.d2c36f2452621cfc4694.js",
         "https://walrodas.github.io/PediYa/manifest.webmanifest",
         "https://walrodas.github.io/PediYa/ngsw-worker.js",
@@ -99,8 +100,9 @@
     "https://walrodas.github.io/PediYa/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "https://walrodas.github.io/PediYa/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "https://walrodas.github.io/PediYa/favicon.ico": "07b630fd224b26de45aa62576a4eb89426fdb5ff",
-    "https://walrodas.github.io/PediYa/index.html": "788d7c97ba0a180ed1de4e977045aa9ebbc8f597",
+    "https://walrodas.github.io/PediYa/index.html": "d0447b080a1b39125fe7c204831ea509b352f38e",
     "https://walrodas.github.io/PediYa/main.5a38b1f05d5e675c35a4.js": "c311f1e48becabec5ce49bd2d88f4624ccdf60c2",
+    "https://walrodas.github.io/PediYa/main.af4d1c6d7e0531b6a0b3.js": "2ccf28d021939d7e970dbba1002242c31534ddc4",
     "https://walrodas.github.io/PediYa/main.d2c36f2452621cfc4694.js": "2731e8e51859ba8242f12ac12880be9bfdb0f917",
     "https://walrodas.github.io/PediYa/manifest.webmanifest": "47d66b2a9533b85da5f6023c6c7e8f41a638f7bd",
     "https://walrodas.github.io/PediYa/ngsw-worker.js": "b44316be1c1338e9e8bd30ee40946085916c58e4",
