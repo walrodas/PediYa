@@ -5,7 +5,7 @@
     "background_color": "#fafafa",
     "display": "standalone",
     "orientation": "portrait",
-    "start_url": "index.html",
+    "start_url": "https://walrodas.github.io/PediYa/",
     "icons": [{
             "src": "assets/icons/icon-72x72.png",
             "sizes": "72x72",
