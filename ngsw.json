@@ -1,130 +1,127 @@
 {
-  "configVersion": 1,
-  "timestamp": 1624386343304,
-  "index": "https://walrodas.github.io/PediYa/https://walrodas.github.io/PediYa/",
-  "assetGroups": [
-    {
-      "name": "app",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "urls": [
-        "https://walrodas.github.io/PediYa/0.0d6b4a040efafbee14bc.js",
-        "https://walrodas.github.io/PediYa/2.46865a432fef78102344.js",
-        "https://walrodas.github.io/PediYa/6.7a49e71cedf3d1c5eac0.js",
-        "https://walrodas.github.io/PediYa/favicon.ico",
-        "https://walrodas.github.io/PediYa/index.html",
-        "https://walrodas.github.io/PediYa/main.d2c36f2452621cfc4694.js",
-        "https://walrodas.github.io/PediYa/manifest.webmanifest",
-        "https://walrodas.github.io/PediYa/ngsw-worker.js",
-        "https://walrodas.github.io/PediYa/polyfills.cc56d2b1d26ba44c0358.js",
-        "https://walrodas.github.io/PediYa/runtime.f1fda5c15f92e48719fd.js",
-        "https://walrodas.github.io/PediYa/safety-worker.js",
-        "https://walrodas.github.io/PediYa/scripts.ea5fcf5575ed4de9a3cc.js",
-        "https://walrodas.github.io/PediYa/styles.e068284aab4cfff3da35.css",
-        "https://walrodas.github.io/PediYa/worker-basic.min.js"
-      ],
-      "patterns": []
+    "configVersion": 1,
+    "timestamp": 1624386765421,
+    "index": "https://walrodas.github.io/PediYa/",
+    "assetGroups": [{
+            "name": "app",
+            "installMode": "prefetch",
+            "updateMode": "prefetch",
+            "cacheQueryOptions": {
+                "ignoreVary": true
+            },
+            "urls": [
+                "https://walrodas.github.io/PediYa/0.0d6b4a040efafbee14bc.js",
+                "https://walrodas.github.io/PediYa/2.46865a432fef78102344.js",
+                "https://walrodas.github.io/PediYa/6.7a49e71cedf3d1c5eac0.js",
+                "https://walrodas.github.io/PediYa/favicon.ico",
+                "https://walrodas.github.io/PediYa/index.html",
+                "https://walrodas.github.io/PediYa/main.d2c36f2452621cfc4694.js",
+                "https://walrodas.github.io/PediYa/manifest.webmanifest",
+                "https://walrodas.github.io/PediYa/ngsw-worker.js",
+                "https://walrodas.github.io/PediYa/polyfills.cc56d2b1d26ba44c0358.js",
+                "https://walrodas.github.io/PediYa/runtime.f1fda5c15f92e48719fd.js",
+                "https://walrodas.github.io/PediYa/safety-worker.js",
+                "https://walrodas.github.io/PediYa/scripts.ea5fcf5575ed4de9a3cc.js",
+                "https://walrodas.github.io/PediYa/styles.e068284aab4cfff3da35.css",
+                "https://walrodas.github.io/PediYa/worker-basic.min.js"
+            ],
+            "patterns": []
+        },
+        {
+            "name": "assets",
+            "installMode": "lazy",
+            "updateMode": "prefetch",
+            "cacheQueryOptions": {
+                "ignoreVary": true
+            },
+            "urls": [
+                "https://walrodas.github.io/PediYa/fa-brands-400.216edb96b562c79adc09.svg",
+                "https://walrodas.github.io/PediYa/fa-brands-400.329a95a9172fdb2cccb4.woff",
+                "https://walrodas.github.io/PediYa/fa-brands-400.89a52ae1d02b86d61439.eot",
+                "https://walrodas.github.io/PediYa/fa-brands-400.9e138496e8f1719c6ebf.ttf",
+                "https://walrodas.github.io/PediYa/fa-brands-400.c1210e5ebe4344da5083.woff2",
+                "https://walrodas.github.io/PediYa/fa-regular-400.1017bce89c72f95bcf8e.ttf",
+                "https://walrodas.github.io/PediYa/fa-regular-400.19e27d348fefc21941e0.svg",
+                "https://walrodas.github.io/PediYa/fa-regular-400.3672264812746c3c7225.woff",
+                "https://walrodas.github.io/PediYa/fa-regular-400.4079ae2d2a15d0689568.eot",
+                "https://walrodas.github.io/PediYa/fa-regular-400.68c5af1f48e2bfca1e57.woff2",
+                "https://walrodas.github.io/PediYa/fa-solid-900.07c3313b24f7b1ca85ee.ttf",
+                "https://walrodas.github.io/PediYa/fa-solid-900.13de59f1a36b6cb4bca0.svg",
+                "https://walrodas.github.io/PediYa/fa-solid-900.ada6e6df937f7e5e8b79.woff2",
+                "https://walrodas.github.io/PediYa/fa-solid-900.c6ec080084769a6d8a34.woff",
+                "https://walrodas.github.io/PediYa/fa-solid-900.efbd5d20e407bbf85f2b.eot"
+            ],
+            "patterns": [
+                "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+                "https:\\/\\/use\\.fontawesome\\.com\\/.*",
+                "https:\\/\\/code\\.jquery\\.com\\/.*",
+                "https:\\/\\/cdnjs\\.cloudflare\\.com\\/.*",
+                "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/.*"
+            ]
+        }
+    ],
+    "dataGroups": [{
+        "name": "pediya",
+        "patterns": [
+            "https:\\/\\/www\\.google\\.com\\/.*",
+            "https:\\/\\/walrodas\\.github\\.io\\/PediYa\\/assets\\/.*"
+        ],
+        "strategy": "performance",
+        "maxSize": 20,
+        "maxAge": 3600000,
+        "timeoutMs": 5000,
+        "cacheQueryOptions": {
+            "ignoreVary": true
+        },
+        "version": 1
+    }],
+    "hashTable": {
+        "https://walrodas.github.io/PediYa/0.0d6b4a040efafbee14bc.js": "a3273a167daa64d4f6307940b4710b80cfb2b08b",
+        "https://walrodas.github.io/PediYa/2.46865a432fef78102344.js": "62ac5ca7ded91223637f33e1636dadececf98b25",
+        "https://walrodas.github.io/PediYa/6.7a49e71cedf3d1c5eac0.js": "4a6a277f1a89615dad27391b588efe078bb1151f",
+        "https://walrodas.github.io/PediYa/fa-brands-400.216edb96b562c79adc09.svg": "24aff44d36f6c4a6a08230474b546b29641c75d6",
+        "https://walrodas.github.io/PediYa/fa-brands-400.329a95a9172fdb2cccb4.woff": "5f8cab91347c553c1eb87f9b527f6bee8a28e40d",
+        "https://walrodas.github.io/PediYa/fa-brands-400.89a52ae1d02b86d61439.eot": "a400bc89d3cb4d45a3b90791800587a1e4ebafa6",
+        "https://walrodas.github.io/PediYa/fa-brands-400.9e138496e8f1719c6ebf.ttf": "3fa2d67cef22da5c3f3eb5730c6afbd6fecf0372",
+        "https://walrodas.github.io/PediYa/fa-brands-400.c1210e5ebe4344da5083.woff2": "fce0da592a3e536d6d5df5b50cb513398d8c5161",
+        "https://walrodas.github.io/PediYa/fa-regular-400.1017bce89c72f95bcf8e.ttf": "7d849a3981a716e2ba4a84634bc57d0b8054a6a3",
+        "https://walrodas.github.io/PediYa/fa-regular-400.19e27d348fefc21941e0.svg": "8d0198777d4c6ff9c39a387f212b4ef732f70abb",
+        "https://walrodas.github.io/PediYa/fa-regular-400.3672264812746c3c7225.woff": "d33d8b5b15b7bba2cc17190dc685fe0a76d2989e",
+        "https://walrodas.github.io/PediYa/fa-regular-400.4079ae2d2a15d0689568.eot": "894064dfd376fc245fe654723d6c81f625e01363",
+        "https://walrodas.github.io/PediYa/fa-regular-400.68c5af1f48e2bfca1e57.woff2": "0447c6b10bbf73f97b23dcfd6e6a48510822cb6e",
+        "https://walrodas.github.io/PediYa/fa-solid-900.07c3313b24f7b1ca85ee.ttf": "c1b9fae262f42868c075ac865a8ab34920e20a2c",
+        "https://walrodas.github.io/PediYa/fa-solid-900.13de59f1a36b6cb4bca0.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
+        "https://walrodas.github.io/PediYa/fa-solid-900.ada6e6df937f7e5e8b79.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
+        "https://walrodas.github.io/PediYa/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
+        "https://walrodas.github.io/PediYa/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
+        "https://walrodas.github.io/PediYa/favicon.ico": "07b630fd224b26de45aa62576a4eb89426fdb5ff",
+        "https://walrodas.github.io/PediYa/index.html": "44df3f4333979c87aae27f2da438efe81fa88b71",
+        "https://walrodas.github.io/PediYa/main.d2c36f2452621cfc4694.js": "2731e8e51859ba8242f12ac12880be9bfdb0f917",
+        "https://walrodas.github.io/PediYa/manifest.webmanifest": "47d66b2a9533b85da5f6023c6c7e8f41a638f7bd",
+        "https://walrodas.github.io/PediYa/ngsw-worker.js": "b44316be1c1338e9e8bd30ee40946085916c58e4",
+        "https://walrodas.github.io/PediYa/polyfills.cc56d2b1d26ba44c0358.js": "74c31d3e548a2093d0cee7bdd10c3f127c7f0ae8",
+        "https://walrodas.github.io/PediYa/runtime.f1fda5c15f92e48719fd.js": "f96daa8fdeb3179afcd15fe4cd0d785b2fd9753d",
+        "https://walrodas.github.io/PediYa/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
+        "https://walrodas.github.io/PediYa/scripts.ea5fcf5575ed4de9a3cc.js": "615c7d5f685b4a6d4d3f50e7889c07483499f79d",
+        "https://walrodas.github.io/PediYa/styles.e068284aab4cfff3da35.css": "5b08eced4b7e0ae8a404c4c407f6fe05433cd50d",
+        "https://walrodas.github.io/PediYa/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
     },
-    {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "urls": [
-        "https://walrodas.github.io/PediYa/fa-brands-400.216edb96b562c79adc09.svg",
-        "https://walrodas.github.io/PediYa/fa-brands-400.329a95a9172fdb2cccb4.woff",
-        "https://walrodas.github.io/PediYa/fa-brands-400.89a52ae1d02b86d61439.eot",
-        "https://walrodas.github.io/PediYa/fa-brands-400.9e138496e8f1719c6ebf.ttf",
-        "https://walrodas.github.io/PediYa/fa-brands-400.c1210e5ebe4344da5083.woff2",
-        "https://walrodas.github.io/PediYa/fa-regular-400.1017bce89c72f95bcf8e.ttf",
-        "https://walrodas.github.io/PediYa/fa-regular-400.19e27d348fefc21941e0.svg",
-        "https://walrodas.github.io/PediYa/fa-regular-400.3672264812746c3c7225.woff",
-        "https://walrodas.github.io/PediYa/fa-regular-400.4079ae2d2a15d0689568.eot",
-        "https://walrodas.github.io/PediYa/fa-regular-400.68c5af1f48e2bfca1e57.woff2",
-        "https://walrodas.github.io/PediYa/fa-solid-900.07c3313b24f7b1ca85ee.ttf",
-        "https://walrodas.github.io/PediYa/fa-solid-900.13de59f1a36b6cb4bca0.svg",
-        "https://walrodas.github.io/PediYa/fa-solid-900.ada6e6df937f7e5e8b79.woff2",
-        "https://walrodas.github.io/PediYa/fa-solid-900.c6ec080084769a6d8a34.woff",
-        "https://walrodas.github.io/PediYa/fa-solid-900.efbd5d20e407bbf85f2b.eot"
-      ],
-      "patterns": [
-        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
-        "https:\\/\\/use\\.fontawesome\\.com\\/.*",
-        "https:\\/\\/code\\.jquery\\.com\\/.*",
-        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/.*",
-        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/.*"
-      ]
-    }
-  ],
-  "dataGroups": [
-    {
-      "name": "pediya",
-      "patterns": [
-        "https:\\/\\/www\\.google\\.com\\/.*"
-      ],
-      "strategy": "performance",
-      "maxSize": 20,
-      "maxAge": 3600000,
-      "timeoutMs": 5000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    }
-  ],
-  "hashTable": {
-    "https://walrodas.github.io/PediYa/0.0d6b4a040efafbee14bc.js": "a3273a167daa64d4f6307940b4710b80cfb2b08b",
-    "https://walrodas.github.io/PediYa/2.46865a432fef78102344.js": "62ac5ca7ded91223637f33e1636dadececf98b25",
-    "https://walrodas.github.io/PediYa/6.7a49e71cedf3d1c5eac0.js": "4a6a277f1a89615dad27391b588efe078bb1151f",
-    "https://walrodas.github.io/PediYa/fa-brands-400.216edb96b562c79adc09.svg": "24aff44d36f6c4a6a08230474b546b29641c75d6",
-    "https://walrodas.github.io/PediYa/fa-brands-400.329a95a9172fdb2cccb4.woff": "5f8cab91347c553c1eb87f9b527f6bee8a28e40d",
-    "https://walrodas.github.io/PediYa/fa-brands-400.89a52ae1d02b86d61439.eot": "a400bc89d3cb4d45a3b90791800587a1e4ebafa6",
-    "https://walrodas.github.io/PediYa/fa-brands-400.9e138496e8f1719c6ebf.ttf": "3fa2d67cef22da5c3f3eb5730c6afbd6fecf0372",
-    "https://walrodas.github.io/PediYa/fa-brands-400.c1210e5ebe4344da5083.woff2": "fce0da592a3e536d6d5df5b50cb513398d8c5161",
-    "https://walrodas.github.io/PediYa/fa-regular-400.1017bce89c72f95bcf8e.ttf": "7d849a3981a716e2ba4a84634bc57d0b8054a6a3",
-    "https://walrodas.github.io/PediYa/fa-regular-400.19e27d348fefc21941e0.svg": "8d0198777d4c6ff9c39a387f212b4ef732f70abb",
-    "https://walrodas.github.io/PediYa/fa-regular-400.3672264812746c3c7225.woff": "d33d8b5b15b7bba2cc17190dc685fe0a76d2989e",
-    "https://walrodas.github.io/PediYa/fa-regular-400.4079ae2d2a15d0689568.eot": "894064dfd376fc245fe654723d6c81f625e01363",
-    "https://walrodas.github.io/PediYa/fa-regular-400.68c5af1f48e2bfca1e57.woff2": "0447c6b10bbf73f97b23dcfd6e6a48510822cb6e",
-    "https://walrodas.github.io/PediYa/fa-solid-900.07c3313b24f7b1ca85ee.ttf": "c1b9fae262f42868c075ac865a8ab34920e20a2c",
-    "https://walrodas.github.io/PediYa/fa-solid-900.13de59f1a36b6cb4bca0.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
-    "https://walrodas.github.io/PediYa/fa-solid-900.ada6e6df937f7e5e8b79.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
-    "https://walrodas.github.io/PediYa/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
-    "https://walrodas.github.io/PediYa/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
-    "https://walrodas.github.io/PediYa/favicon.ico": "07b630fd224b26de45aa62576a4eb89426fdb5ff",
-    "https://walrodas.github.io/PediYa/index.html": "44df3f4333979c87aae27f2da438efe81fa88b71",
-    "https://walrodas.github.io/PediYa/main.d2c36f2452621cfc4694.js": "2731e8e51859ba8242f12ac12880be9bfdb0f917",
-    "https://walrodas.github.io/PediYa/manifest.webmanifest": "47d66b2a9533b85da5f6023c6c7e8f41a638f7bd",
-    "https://walrodas.github.io/PediYa/ngsw-worker.js": "b44316be1c1338e9e8bd30ee40946085916c58e4",
-    "https://walrodas.github.io/PediYa/polyfills.cc56d2b1d26ba44c0358.js": "74c31d3e548a2093d0cee7bdd10c3f127c7f0ae8",
-    "https://walrodas.github.io/PediYa/runtime.f1fda5c15f92e48719fd.js": "f96daa8fdeb3179afcd15fe4cd0d785b2fd9753d",
-    "https://walrodas.github.io/PediYa/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
-    "https://walrodas.github.io/PediYa/scripts.ea5fcf5575ed4de9a3cc.js": "615c7d5f685b4a6d4d3f50e7889c07483499f79d",
-    "https://walrodas.github.io/PediYa/styles.e068284aab4cfff3da35.css": "5b08eced4b7e0ae8a404c4c407f6fe05433cd50d",
-    "https://walrodas.github.io/PediYa/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
-  },
-  "navigationUrls": [
-    {
-      "positive": true,
-      "regex": "^\\/.*$"
-    },
-    {
-      "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
-    },
-    {
-      "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
-    },
-    {
-      "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
-    }
-  ],
-  "navigationRequestStrategy": "performance"
+    "navigationUrls": [{
+            "positive": true,
+            "regex": "^\\/.*$"
+        },
+        {
+            "positive": false,
+            "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+        },
+        {
+            "positive": false,
+            "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+        },
+        {
+            "positive": false,
+            "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+        }
+    ],
+    "navigationRequestStrategy": "performance"
 }
